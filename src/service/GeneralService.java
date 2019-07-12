@@ -8,7 +8,7 @@ public interface GeneralService <T> {
     void add(int index, T element);
 
 
-    T edit(int index, T element);
+    T edit(int index);
 
     T delete(int index);
 

@@ -23,8 +23,8 @@ public class ProductService implements GeneralService <Product> {
     }
 
     @Override
-    public Product edit(int index, Product element) {
-        return productRepository.edit(index, element);
+    public Product edit(int index) {
+        return productRepository.edit(index);
     }
 
     @Override

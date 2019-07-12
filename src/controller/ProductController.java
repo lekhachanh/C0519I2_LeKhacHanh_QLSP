@@ -22,8 +22,8 @@ public class ProductController {
         return productService.delete(index);
     }
 
-    public Product edit (int index, Product product) {
-        return productService.edit(index, product);
+    public Product edit (int index) {
+        return productService.edit(index);
     }
 
     public int findName (String product) {
